@@ -1,2 +1,0 @@
-# nmccx
-nmccx.com
