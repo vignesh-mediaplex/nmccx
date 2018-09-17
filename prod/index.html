@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NMCCX</title>
+  <base href="./">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">  -->
+  <link rel="icon" type="image/x-icon" sizes="32x32" href="./assets/img/favi.png">
+<link rel="stylesheet" href="styles.ec077b63380c0b6f8ca6.css"></head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120210870-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120210870-1');
+</script>
+<body   >
+  <app-root></app-root>
+<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.5fa5f752cecfa84f76c5.js"></script><script type="text/javascript" src="scripts.71f902a4eeb24fe89280.js"></script><script type="text/javascript" src="main.41591e990f9d3d7e060f.js"></script></body>
+<script>
+  // oncontextmenu="return false"
+$(window).on("scroll", function () {
+      if ($(window).scrollTop() > 50) {
+          $(".mat-toolbar").addClass("active1");
+          $(".logo").attr("src", "./assets/img/NMCCX1.png");
+      } else {
+          //remove the background property so it comes transparent again (defined in your css)
+          $(".mat-toolbar").removeClass("active1");
+          $(".logo").attr("src", "./assets/img/NMCCX1.png");
+      }
+  });
+
+ $('.navbar-nav>li>button').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+// $('.navbar-nav>li>button').on('click', function(){
+//     $('.navbar-collapse').collapse('hide');
+// });
+</script>
+</html>
